@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import 'semantic-ui/dist/semantic.css'
+import 'semantic-ui/dist/semantic.js'
 
 Vue.prototype.$http = axios
 Vue.config.productionTip = false

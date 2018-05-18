@@ -8,7 +8,6 @@
 
 <script>
 import router from '../router'
-import arbreStore from '../store/ArbreStore'
 
 export default {
   name: 'custiom-actions',
@@ -23,7 +22,6 @@ export default {
   },
   methods: {
     itemAction (action, data, index) {
-      arbreStore.setId(data.IdThing)
       router.push({name: 'arbre-view', params: {id: data.IdThing}})
     }
   }
