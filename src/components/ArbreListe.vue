@@ -31,7 +31,7 @@
               v-model="arbre.cadastre"
               :options="yes_or_no"
               trackBy="value"
-              fieldName="label"
+              fieldname="label"
               sort="desc"
               placeholder="Cadastré"
               ></my-select>
@@ -65,7 +65,7 @@
               v-model="arbre.rue"
               :src="src_url"
               item="Rue"
-              fieldName="SelectName"
+              fieldname="SelectName"
               sort="asc"
               placeholder="Sélectionner une rue"
               ></my-select>
