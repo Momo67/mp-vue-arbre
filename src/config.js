@@ -36,13 +36,6 @@ export const ARBRE = {
   note: -1
 }
 export const FIELDS = [
-  /*
-  {
-    name: '__checkbox',
-    titleClass: 'center aligned',
-    dataClass: 'center aligned'
-  },
-  */
   {
     name: 'IdThing',
     title: 'Identifiant',
